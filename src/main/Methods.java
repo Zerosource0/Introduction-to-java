@@ -1,4 +1,4 @@
-package main;
+package Main;
 
 /**
  * Created by Marc on 21-08-2016.
@@ -103,18 +103,22 @@ public class Methods {
      Alright so a lot of stuff is going on here.
 
      First and foremost:
+     Calling a method is done by writing its name and then the two parenthesis after, followed by the semicolon.
+     Some method does not require any parameters, in which case you can leave them empty.
+
+     Secondly
      System.out.println(); just prints the value to the console. It's primarily used for local debugging,
      So don't forget it, because you'll need it later on. Hotkey/Macro: sout + TAB.
 
-     Secondly, why the heck did I create yourAge as a byte data type variable, when we set the add age params as int?
+     Thirdly, why the heck did I create yourAge as a byte data type variable, when we set the add age params as int?
      The reason I did that was to show you that you Java will accept smaller Integer types when put into bigger ones.
      However you can't put a long into a short. That's like trying to fit a camel through the eye of a needle.
 
-     Thirdly, as you can see, you can initialize a variable with a method call. The variable is happy, as long it gets
+     Fourthly, as you can see, you can initialize a variable with a method call. The variable is happy, as long it gets
      a fitting value.
 
      Last but not least, as you've probably figured out by now, we're not actually running the method at all.
-     The compiler needs an access point to the code - a starting point of sorts. This is known as a Main-method.
+     The compiler needs an access point to the code - a starting point of sorts. This is known as a Main method.
      I'll show you what it looks like, but because we haven't talked about classes nor scopes, we can't actually run
      out code with it, with out changing it, so we'll do that in the next section. Here's the main method for now;
      Hotkey/Macro: psvm + TAB.
@@ -127,13 +131,21 @@ public class Methods {
     /*
     So you can see that this method has some more code to it:
     The first one is the "public" keyword, which is known as the Access level modifier - again a talk for later.
-    The second keyword is the static keyword. Static can be used in both variables and method. Basically static
+    The second keyword is the "static" keyword. Static can be used in both variables and method. Basically static
     means that only one instance of a static field exits, so you can create as many as you want, but there will
     essentially only exist one.
 
     The annoying thing about the static field is that if you want to run a method inside it, you would have to make
     that method static too. And we don't want to do that. Instead, we can create a class and then call it's methods
     from the main method.
+
+    -----------------------------------------------------------------------------------------------------------------
+
+    The "HELP ME I'VE NO CLUE WHAT I'M DOING" - section, also known as the TLDR; - section.
+    Remember the parenthesis and semicolons when calling methods!
+    You can put byte into short which you can put into int which you can put into long. But not the other way around.
+
+
      */
 
 

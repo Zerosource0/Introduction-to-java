@@ -1,4 +1,4 @@
-package main;
+package Main;
 
 /**
  * Created by Marc on 21-08-2016.
