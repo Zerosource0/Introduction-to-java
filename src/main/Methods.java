@@ -1,4 +1,4 @@
-package Main;
+package main;
 
 /**
  * Created by Marc on 21-08-2016.
@@ -118,7 +118,7 @@ public class Methods {
      a fitting value.
 
      Last but not least, as you've probably figured out by now, we're not actually running the method at all.
-     The compiler needs an access point to the code - a starting point of sorts. This is known as a Main method.
+     The compiler needs an access point to the code - a starting point of sorts. This is known as a main method.
      I'll show you what it looks like, but because we haven't talked about classes nor scopes, we can't actually run
      out code with it, with out changing it, so we'll do that in the next section. Here's the main method for now;
      Hotkey/Macro: psvm + TAB.

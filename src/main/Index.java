@@ -1,4 +1,4 @@
-package Main;
+package main;
 
 /**
  * Created by Marc on 21-08-2016.
@@ -39,7 +39,7 @@ public class Index {
     internet browser or your phone, through what is known as a Java Runtime Environment(JRE).
 
     So in short, one of the positives of Java, is that It'll run on almost anything and because of this, it is
-    easy to find solutions to your coding problems online. Java is also really similar to C#, so once you know Java
+    easy to find solutions to your coding problems online. Java is also really similar to C#, so once you know Java,
     well, it shouldn't be that hard to switch to another language.
      */
 }

@@ -1,4 +1,4 @@
-package Main;
+package main;
 
 /**
  * Created by marcj_000 on 21/08/2016.
@@ -31,6 +31,10 @@ public class ClassesAndScopes {
 
         /*
         So here, were writing a Person class. A Person can now have an age, name, address and phone number.
+
+        Note: These are your fields, and you always want to put them up top, after you class declaration.
+        Although you when you declare local, or intermediate variables, just create them when you need them.
+
         So far we have no way of assigning any of these values to a Person. Enter the Constructor:
          */
 
@@ -132,7 +136,7 @@ public class ClassesAndScopes {
 
     public static void main(String[] args) {
 
-        Person examplePerson = new Person(32, "Marc", "Georginevej 8, st. tv. 2300s Copenhagen", 30317338);
+        Person examplePerson = new Person(32, "Marc", "SomeAddress 8, 2300s Copenhagen", 55500055);
         examplePerson.speak();
 
         /*

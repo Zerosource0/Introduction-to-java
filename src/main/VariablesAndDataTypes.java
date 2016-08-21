@@ -1,4 +1,4 @@
-package Main;
+package main;
 
 /**
  * Created by Marc on 21-08-2016.
@@ -72,7 +72,7 @@ public class VariablesAndDataTypes {
      */
 
     String myName = "Marc Jesse";
-    int myPhoneNumber = 30317338;
+    int myPhoneNumber = 55500055;
 
     /*
       Okay, so now that we have roughly covered how to create variables, we must now move on to cover the different
