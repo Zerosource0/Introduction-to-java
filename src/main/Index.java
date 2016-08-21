@@ -8,11 +8,11 @@ public class Index {
     /*
     INDEX:
 
-    01: Variables and Data Types 101
-    02: Methods 101
-    03: Classes and Scopes 101
-    04: Arrays 101
-    05: Java Logic
+    01: VARIABLES AND DATA TYPES 101
+    02: METHODS 101
+    03: CLASSES AND SCOPES 101
+    04: ARRAYS 101
+    05: ITERATION AND CONDITIONS 101
 
 
     Foreword
@@ -41,5 +41,11 @@ public class Index {
     So in short, one of the positives of Java, is that It'll run on almost anything and because of this, it is
     easy to find solutions to your coding problems online. Java is also really similar to C#, so once you know Java,
     well, it shouldn't be that hard to switch to another language.
+
+    REMEMBER
+
+    The only real way to learn Java is to get in there and code. You can read all the books about Java,
+    but the only way to get good is to code. And do it over and over and over again. Be repetitive.
+
      */
 }

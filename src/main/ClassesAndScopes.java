@@ -5,9 +5,8 @@ package main;
  */
 public class ClassesAndScopes {
 
-
     /*
-    03: Classes and Scopes
+    03: CLASSES AND SCOPES
     Yaay! You made it this far. Give yourself a pat on the shoulder. So hopefully you understand something about variables,
     data types and methods. Now the real agony begins, because you have to know about classes and scopes, and this'll
     probably end up being a long section, so bear with me.
@@ -139,12 +138,29 @@ public class ClassesAndScopes {
         Person examplePerson = new Person(32, "Marc", "SomeAddress 8, 2300s Copenhagen", 55500055);
         examplePerson.speak();
 
+    }
         /*
         Notice that you call a method from an object by putting a period in between the reference to the person and
         the reference to the method. Remember the parenthesis after the method reference and the semicolon.
+
+        Back to the scopes.. which is actually also known as encapsulation.
+        If you declare a variable inside a method, it is only accessible inside that method.
+        That is because it is encapsulated:
          */
 
+    public int encapsulatedVariableMethod(){
+
+        int localVariable = 5;
+
+        return localVariable;
+
     }
+
+        /*
+        The only way to extract the local variable we have created, is to return it. If the method's return type was
+        void, we would have no way of accessing the variable at all.
+         */
+
 
 
 }
